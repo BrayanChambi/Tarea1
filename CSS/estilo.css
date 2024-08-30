@@ -1,0 +1,102 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nivel1 {
+    background-color: #4AAFF7;
+    padding: 70px;
+    width: 800px;
+    height: 500px;
+    border-radius: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fila {
+    display: flex;
+    align-items: center;
+}
+
+.nivel2,
+.nivel3,
+.nivel4,
+.nivel5,
+.nivel6,
+.nivel7,
+.nivel8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: -20px;
+}
+
+.nivel2 {
+    width: 60px;
+    height: 60px;
+    background-color: #A1F276;
+}
+
+.nivel3 {
+    width: 60px;
+    height: 60px;
+    background-color: #C8EBF6;
+}
+
+.nivel4 {
+    width: 60px;
+    height: 60px;
+    background-color: #58A0E4;
+}
+
+.nivel5 {
+    width: 60px;
+    height: 60px;
+    background-color: #F293FF;
+}
+
+.nivel6 {
+    width: 60px;
+    height: 60px;
+    background-color: #07687D;
+}
+
+.nivel7 {
+    width: 60px;
+    height: 60px;
+    background-color: #2ECC71;
+}
+
+.nivel8 {
+    width: 60px;
+    height: 60px;
+    background-color: #1AB528;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
